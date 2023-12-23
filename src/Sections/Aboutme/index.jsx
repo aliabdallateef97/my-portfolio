@@ -94,7 +94,7 @@ const AboutMe = () => {
               <FaGithub />
             </a>
             <a
-              href="https://drive.google.com/file/d/1ZPpBMCxuh9mqD9ZY6BWBl2NmH4PEZwaD/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1mBervuxp43In8xmZRH_trElTR0P5qsqg/view?usp=sharing"
               target="_blank"
               download
             >
