@@ -1,0 +1,53 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    padding: 10px 20px;
+}
+
+.form input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    margin: 0;
+}
+
+.form textarea{
+    width: 100%;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.form button{
+    width: 100px;
+    cursor: pointer;
+    padding: 10px 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+h1{
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.form p{
+    color: red;
+    font-size: 18px;
+    margin: 0;
+}
+
+.form .inputContainer{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    width: 100%;
+}
