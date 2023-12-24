@@ -2,7 +2,7 @@ import { RigidBody } from "@react-three/rapier";
 import React, { useState } from "react";
 import BoardModel from "../BoardModel";
 import * as THREE from "three";
-import { Html ,useTexture} from "@react-three/drei";
+import { Html ,Sparkles,useTexture} from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { ContactUsForm } from "./Form";
 import ReactLogo from "./ReactLogo";
@@ -80,6 +80,9 @@ const ContactUs = () => {
 
       {/* React Logo */}
       <ReactLogo />
+
+      {/* Sparks */}
+      <Sparkles count={1000} speed={0.5} size={2} position={[0, 1, -0.15]} scale={1.5}/>
     </group>
   );
 };
