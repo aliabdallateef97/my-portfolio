@@ -82,7 +82,7 @@ const ContactUs = () => {
       <ReactLogo />
 
       {/* Sparks */}
-      <Sparkles count={1000} speed={0.5} size={2} position={[0, 1, -0.15]} scale={1.5}/>
+      <Sparkles count={150} speed={0.5} size={2} position={[0, 1, -0.5]} scale={1.5}/>
     </group>
   );
 };
